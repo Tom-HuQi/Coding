@@ -36,6 +36,7 @@ class ClientHandler():
         self.mainPath = os.path.dirname(os.path.abspath(__file__))
         self.last = 0
 
+    # 启动客户端且连接服务端的参数
     def verify_args(self):
         host = self.options.host
         port = self.options.port
